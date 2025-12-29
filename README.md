@@ -1,14 +1,32 @@
-# ISBI Homeworks
+# 📚 ISBI Homeworks
 
-Questa repository contiene gli homework del corso di **Information Systems and Business Intelligence**, tenuto presso l'Università degli Studi di Napoli Federico II, secondo anno della Laurea Magistrale in Ingegneria Informatica.
+Benvenuti! 👋  
+Questa repository raccoglie gli **homework e i project work** del corso di  
+**Information Systems and Business Intelligence (ISBI)** 🧠📊,  
+tenuto presso l’**Università degli Studi di Napoli Federico II** 🎓.
 
-## Contenuto
+Il corso fa parte del **secondo anno della Laurea Magistrale in Ingegneria Informatica**  
+e affronta temi chiave legati ai **sistemi informativi**, alla **business intelligence**  
+e all’uso di strumenti avanzati per l’analisi e la gestione dei dati.
 
-- Project Work #1: Progetto Bonita
-- Project Work #2: Pipeline di ML per time series
-- Project Work #3: Dashboard Streamlit
- 
+---
 
-## Note
+## 🗂️ Contenuto della repository
 
-Questa repository è destinata esclusivamente a scopo didattico e di studio personale.
+All’interno della repository sono presenti i seguenti project work:
+
+- 🛠️ **Project Work #1 – Bonita BPM**  
+  Modellazione di processi di business (BPMN) in contesti di giustizia digitale.
+
+- 📈 **Project Work #2 – Machine Learning per Time Series**  
+  Sviluppo di una pipeline di Machine Learning per l’analisi e la previsione di serie temporali.
+
+- 📊 **Project Work #3 – Dashboard Streamlit**  
+  Realizzazione di una dashboard interattiva per la visualizzazione dei dati.
+
+---
+
+## ℹ️ Note
+
+Questa repository è destinata **esclusivamente a scopo didattico** 🎓  
+e per **studio personale**, nell’ambito del corso ISBI.

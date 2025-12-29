@@ -18,6 +18,13 @@ Per avviare il progetto Streamlit, segui questi passaggi:
 2. **Installa le dipendenze**  
     Assicurati di avere Python installato. Poi, installa Streamlit e le altre dipendenze:
     ```bash
+    python -m pip install --upgrade pip
+    ```
+    oppure 
+    ```bash
+    python.exe -m pip install --upgrade pip
+    ```
+    ```bash
     pip install -r requirements.txt
     ```
 
