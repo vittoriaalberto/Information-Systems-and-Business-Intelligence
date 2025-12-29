@@ -1,6 +1,5 @@
 # 📚 ISBI Homeworks
 
-Benvenuti! 👋  
 Questa repository raccoglie gli **homework e i project work** del corso di  
 **Information Systems and Business Intelligence (ISBI)** 🧠📊,  
 tenuto presso l’**Università degli Studi di Napoli Federico II** 🎓.
