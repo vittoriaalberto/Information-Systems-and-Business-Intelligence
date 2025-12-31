@@ -24,6 +24,7 @@ Per avviare il progetto Streamlit, segui questi passaggi:
     ```bash
     python.exe -m pip install --upgrade pip
     ```
+    poi
     ```bash
     pip install -r requirements.txt
     ```
