@@ -1,12 +1,9 @@
 # 📚 ISBI Homeworks
 
-Questa repository raccoglie gli **homework e i project work** del corso di  
-**Information Systems and Business Intelligence (ISBI)** 🧠📊,  
+Questa repository raccoglie gli **homework e i project work** del corso di **Information Systems and Business Intelligence (ISBI)** 🧠📊,  
 tenuto presso l’**Università degli Studi di Napoli Federico II** 🎓.
 
-Il corso fa parte del **secondo anno della Laurea Magistrale in Ingegneria Informatica**  
-e affronta temi chiave legati ai **sistemi informativi**, alla **business intelligence**  
-e all’uso di strumenti avanzati per l’analisi e la gestione dei dati.
+Il corso fa parte del **secondo anno della Laurea Magistrale in Ingegneria Informatica** e affronta temi chiave legati ai **sistemi informativi**, alla **business intelligence** e all’uso di strumenti avanzati per l’analisi e la gestione dei dati.
 
 ---
 
