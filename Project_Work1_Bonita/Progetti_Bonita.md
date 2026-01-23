@@ -1,6 +1,6 @@
 # Information System & Business Intelligence – #1 Project
 
-Care studentesse e cari student del corso di Information Systems & Business Intelligence,
+Care studentesse e cari studenti del corso di Information Systems & Business Intelligence,
 questo è il vostro primo progetto sul tema **Business Process Management** con Bonita. Useremo tre contesti reali della giustizia digitale (progetti europei DEUCE, IDEA e CREA3) come contest operativo per costruire tre diversi processi BPMN. L’obiettivo principale è che impariate a modellare in Bonita: attori, attività, flussi e semplici decisioni.
 
 ## Contest

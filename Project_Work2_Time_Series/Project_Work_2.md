@@ -29,3 +29,39 @@ Per ogni dataset sono riportati:
 ```bash
 wget -O metro_interstate_traffic_volume.zip "[https://archive.ics.uci.edu/static/public/492/metro%2Binterstate%2Btraffic%2Bvolume.zip](https://archive.ics.uci.edu/static/public/492/metro%2Binterstate%2Btraffic%2Bvolume.zip)"
 unzip metro_interstate_traffic_volume.zip
+```
+
+**Mirror Kaggle:**
+[https://www.kaggle.com/datasets/pooriamst/metro-interstate-traffic-volume](https://www.kaggle.com/datasets/pooriamst/metro-interstate-traffic-volume)
+
+### Descrizione dei dati
+Serie storica oraria del volume di traffico (numero di auto all’ora) su un tratto dell’autostrada Interstate 94 tra Minneapolis e Saint Paul (USA). Ogni osservazione include il volume di traffico e diverse informazioni meteo e di calendario (festività, ora del giorno, ecc.). È adatto per esercizi di previsione a breve termine e analisi di pattern giornalieri/settimanali.
+
+### Struttura dei dati
+* **Orizzonte temporale:** circa 2012–2018
+* **Frequenza:** 1 osservazione all’ora
+* **Dimensione:** ~48.000 righe
+* **Colonne principali:** `date_time` (timestamp), `traffic_volume` (auto/ora), temperatura, `rain_1h`, `snow_1h`, `clouds_all`, `holiday`, descrizione meteo.
+
+### Variabile/i target
+* **Target principale:** `traffic_volume` – numero di veicoli che transitano nel tratto nell’ora considerata.
+
+### Compiti suggeriti
+
+#### 1. Compito A – Previsione del traffico a breve termine
+**Obiettivo:** prevedere il valore futuro di `traffic_volume` (ad esempio l’ora successiva) utilizzando informazioni storiche sul traffico, sulle condizioni meteo e sul calendario.
+
+**Indicazioni operative:**
+* Creare un indice temporale a partire da `date_time` e ordinare i dati;
+* Costruire variabili temporali (ora del giorno, giorno della settimana, festivo/non festivo);
+* Creare una o più variabili di ritardo (*lag*) di `traffic_volume` (es. ultimo valore, ultime 24 ore);
+* Scegliere uno o più modelli di previsione (es. modello di regressione o modello per serie storiche) e confrontarli con baseline semplici (ad esempio “stesso valore dell’ora precedente”);
+* Valutare le prestazioni con metriche appropriate e commentare i risultati.
+
+#### 2. Compito B – Analisi di pattern giornalieri e settimanali
+**Obiettivo:** analizzare il comportamento del traffico nel corso della giornata, della settimana e mensilità. Creare delle KPIs per il dominio di interesse.
+
+**Indicazioni operative:**
+* Calcolare e rappresentare graficamente la media di `traffic_volume` per ora del giorno, separando giorni feriali e weekend;
+* Analizzare l’effetto di condizioni meteo estreme (pioggia/neve) sui volumi;
+* Discutere come queste informazioni potrebbero essere utilizzate per la pianificazione dei trasporti.
